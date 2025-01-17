@@ -12,7 +12,6 @@ Skype: gerasimowigor
 ---
 ### Summary
 
-I'm a python geek and devops.
 
 More than ten years of software engineering and devops practice have provided me with strong skills in high load distributed projects, microservices, monitoring, configuration, deployment, tests and continuous integration.
 
@@ -35,19 +34,7 @@ Diligence and dedication, responsibility, keen interest and desire to solve the 
 - **containers**:    docker, docker-compose, kubernetes
 - **language ability**:   fluent english, ukr, rus
 
-Key-used technologies and tools: 
- - linux - up 10 years of using, ubuntu/debian preferable.
- - aws ~ 10 years of day-to-day usage vof arious aws servies - eks, ec2, rds, cloudApi, efs and many others.
- - gcp ~ 2-3 years of expirience.
- - kubernetes ( EKS, GKE, kops, kubespray ) ~ 5 years of usage, up-to ~250 nodes in cluster, PR based environmets ( preview or dynamical ), full setup with Terraform and Terragrunt. Of course I used KEDA and Karpenter as scaling solution, aws scaler as well. 
- - terraform - 6 years of daily usage. Prefer to use bese practice - small chnages, PR's, separate state per logical module, documentation is must. Of course I wrote modules, basic and more complex logical - described platform part - auth stack as example: 
- ```
-     elastiCashe as storage
-     kubernetes app 
-     apigateway as endpoint 
-     s3 as static storage 
-```
- - continuous delivery - 6 years of implementation with Jenkins, gitlab-ci, argoCD, flux, etc. 
+
 
 Experience included:
 
@@ -65,6 +52,34 @@ Configuration and automation of services like:
 and many more ;)
 
 Latest projects:
+
+### NDA company in iGaming segment 
+
+Lead devops in internal project 
+
+Overview
+
+Internal initiative focused on migration from multiple clouds and baremetal providers to single infrastructure stack, unified delivery pipeline and platform engineering as way to manage processes.
+
+Key Responsibilities
+
+Working closely with development teams to create requirements and designs that could be used by any team within the company, while at the same time creating a list of recommendations for developers to meet company patters alligned to new infra design. Bringing these plans into reality within the expected timeframe. Operations department management - team over 20 persons.
+
+Key Accomplishments
+
+The purpose of the migration was to accelerate the speed of continuous delivery of new services, reduce the cost of the platform as a whole and components, introduce and calculate the event cost ( inluding tech costs )
+Delivery speed has been increased by 30 to 50 percent
+Cost decreased on ~20 persents
+The number of colleagues in the OPS team was reduced from 24 to 4 in Core OPS team 
+
+
+Technical Environment
+
+Clouds and providers: AWS, GCP, Hetzner, CLoudflare
+Executors: EKS, k8s, lambdas and cloud functions, baremetal and virtual servers
+IAC: Terraform/Terragrunt, Ansible, various configurations ( github/gitlab/sonarqube)
+Observability: Datadog, VictoriaMetrics and various exporters, synthetic monitoring ( user behaviour emulation)
+CI/CD: mix of github and gitlab, argocd.
 
 ### Surprise.com https://surprise.com/
 
