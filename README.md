@@ -73,12 +73,12 @@ The number of colleagues in the OPS team was reduced from 24 to 4 in Core OPS te
 
 ### Technical Environment
 
-Clouds and providers: AWS, GCP, Hetzner, CLoudflare
-Executors: EKS, k8s, lambdas and cloud functions, baremetal and virtual servers
-IAC: Terraform/Terragrunt, Ansible, various configurations ( github/gitlab/sonarqube)
-Observability: Datadog, VictoriaMetrics and various exporters, synthetic monitoring ( user behaviour emulation)
-CI/CD: mix of github and gitlab, argocd.
-MessageBrokers: Kafka 
+- Clouds and providers: AWS, GCP, Hetzner, CLoudflare
+- Executors: EKS, k8s, lambdas and cloud functions, baremetal and virtual servers
+- IAC: Terraform/Terragrunt, Ansible, various configurations ( github/gitlab/sonarqube)
+- Observability: Datadog, VictoriaMetrics and various exporters, synthetic monitoring ( user behaviour emulation)
+- CI/CD: mix of github and gitlab, argocd.
+- MessageBrokers: Kafka 
 
 ### Surprise.com https://surprise.com/
 
