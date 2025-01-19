@@ -2,7 +2,6 @@
 .idea
 terragrunt.iml
 vendor
-.terraform
 .vscode
 *.tfstate
 *.tfstate.backup
@@ -11,7 +10,6 @@ vendor
 .bundle
 .ruby-version
 .terraform.lock.hcl
-terragrunt
 .DS_Store
 mocks/
 .go-version
